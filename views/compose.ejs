@@ -1,0 +1,42 @@
+<%- include("partials/header") -%>
+
+
+
+
+
+
+<h1>Compose</h1>
+<form action="/compose" method="post">
+
+
+
+    <div class="form-group">
+        <!-- <label for="title">Title</label> -->
+        <input type="text" class="form-control" id="title"  placeholder="Title" name="PostTitle">
+        <small class="form-text text-muted">An eye catching label is all a blog needs.</small>
+      </div>
+      <div class="form-group">
+        <!-- <label for="post">Post</label> -->
+        <textarea style="height: 19rem;" class="form-control" aria-label="With textarea" id="post" placeholder="Post" name="PostBody"></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
