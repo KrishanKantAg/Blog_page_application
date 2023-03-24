@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build/app.js"
+    "build": "node app.js"
   },
   "engines": {
     "node": "18.14.0",
